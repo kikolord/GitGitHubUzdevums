@@ -19,4 +19,3 @@ void Andrejs::Print() const
 	cout << name << endl;
 }
 
-
