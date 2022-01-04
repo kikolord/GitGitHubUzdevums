@@ -1,22 +1,21 @@
 #include <iostream>
 #include "Name.h"
-#include "Andrejs.h"
+#include "Edijs.h"
 
 using namespace std;
 
-Andrejs::Andrejs(string n)
+Edijs::Edijs(string n)
 {
 	name=n;
 }
 
-void Andrejs::setName(string n)
+void Edijs::setName(string n)
 {
 	name=n;
 }
 
-void Andrejs::Print() const
+void Edijs::Print() const
 {
 	cout << name << endl;
 }
-
 
