@@ -2,10 +2,10 @@
 #include "Name.h"
 using namespace std;
 
-class Andrejs: public Name
+class Edijs: public Name
 {
 	public:
-		Andrejs(string = "DefaultName");
+		Edijs(string = "DefaultName");
 		virtual void setName(string);
 		void Print() const;
 		
